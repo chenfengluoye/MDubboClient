@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema
+        xmlns="http://127.0.0.1:8080/MDubbo/schema/mdubbo"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+        xmlns:beans="http://www.springframework.org/schema/beans"
+        xmlns:tool="http://www.springframework.org/schema/tool"
+        targetNamespace="http://127.0.0.1:8080/MDubbo/schema/mdubbo"
+        elementFormDefault="qualified"
+        attributeFormDefault="unqualified">
+    <xsd:import namespace="http://www.springframework.org/schema/beans" />
+    <xsd:element name="indexServer">
+        <xsd:complexType>
+            <xsd:attribute name="id" type="xsd:ID" use="required">
+                <xsd:annotation>
+                    <xsd:documentation><![CDATA[ Spring的BeanId ]]></xsd:documentation>
+                </xsd:annotation>
+            </xsd:attribute>
+            <xsd:attribute name="address" type="xsd:string" use="required">
+                <xsd:annotation>
+                    <xsd:documentation><![CDATA[ 索引服务器的地址 ]]></xsd:documentation>
+                </xsd:annotation>
+            </xsd:attribute>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="subscriber">
+        <xsd:complexType>
+            <xsd:attribute name="id" type="xsd:ID" use="required">
+                <xsd:annotation>
+                    <xsd:documentation><![CDATA[ Spring的BeanId ]]></xsd:documentation>
+                </xsd:annotation>
+            </xsd:attribute>
+            <xsd:attribute name="interface" type="xsd:string" use="required">
+                <xsd:annotation>
+                    <xsd:documentation><![CDATA[ 具体的接口类 ]]></xsd:documentation>
+                </xsd:annotation>
+            </xsd:attribute>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="provider">
+        <xsd:complexType>
+            <xsd:attribute name="id" type="xsd:ID" use="required">
+                <xsd:annotation>
+                    <xsd:documentation><![CDATA[ Spring的BeanId ]]></xsd:documentation>
+                </xsd:annotation>
+            </xsd:attribute>
+            <xsd:attribute name="interface" type="xsd:string" use="required">
+                <xsd:annotation>
+                    <xsd:documentation><![CDATA[ 具体的接口类 ]]></xsd:documentation>
+                </xsd:annotation>
+            </xsd:attribute>
+            <xsd:attribute name="ref" type="xsd:string" use="required">
+                <xsd:annotation>
+                    <xsd:documentation><![CDATA[ 真正的的引用bean ]]></xsd:documentation>
+                </xsd:annotation>
+            </xsd:attribute>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>
