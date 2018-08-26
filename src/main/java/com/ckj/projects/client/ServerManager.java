@@ -10,6 +10,6 @@ public class ServerManager {
 
     public static Map<String,List<Map<String,Object>>> provideList=new HashMap();
 
-    public static Map<String,LocalServerToCenter> centerList=new HashMap<String, LocalServerToCenter>();
+//    public static Map<String,LocalServerToCenter> centerList=new HashMap<String, LocalServerToCenter>();
 
 }

@@ -37,7 +37,6 @@ public class LocalServerHandler extends Thread {
             beanName=Character.toLowerCase(beanName.charAt(0))+beanName.substring(1);
             Method method=provider.getDeclaredMethod(requestMethod.getMethodName(),paramtypes);
             Object object=context.getBean(beanName,provider);
-            context.getBeansOfType()
             Object retObject=method.invoke(object,params);
             ObjectOutputStream out=new ObjectOutputStream(socket.getOutputStream());
             out.writeObject(retObject);

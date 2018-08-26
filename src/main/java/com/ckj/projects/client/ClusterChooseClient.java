@@ -21,7 +21,7 @@ public class ClusterChooseClient {
             System.out.println("索引服务启动，获取注册中心地址和端口:.........\n索引地址："+address);
             String result=NetUtils.httpGetRequest(address);
             centryAddrList=new JSONArray(result);
-            initRegistryCenters();
+//            initRegistryCenters();
             System.out.println("与注册中心集群建立通完成。。。");
         }catch (Exception e){
             e.printStackTrace();
@@ -29,20 +29,20 @@ public class ClusterChooseClient {
         }
     }
 
-    public static void initRegistryCenters(){
-        for(int i=0;i<ClusterChooseClient.centryAddrList.length();i++){
-            try {
-                JSONObject jsonObject=ClusterChooseClient.centryAddrList.getJSONObject(i);
-                String address=jsonObject.getString("ipAddress");
-                int port=jsonObject.getInt("serverPort");
-                Socket socket=new Socket(address,port);
-                LocalServerToCenter center=new LocalServerToCenter(socket);
-                ServerManager.centerList.put(address+":"+port,center);
-            }catch (Exception e){
-                e.printStackTrace();
-            }
-        }
-    }
+//    public static void initRegistryCenters(){
+//        for(int i=0;i<ClusterChooseClient.centryAddrList.length();i++){
+//            try {
+//                JSONObject jsonObject=ClusterChooseClient.centryAddrList.getJSONObject(i);
+//                String address=jsonObject.getString("ipAddress");
+//                int port=jsonObject.getInt("serverPort");
+//                Socket socket=new Socket(address,port);
+//                LocalServerToCenter center=new LocalServerToCenter(socket);
+//                ServerManager.centerList.put(address+":"+port,center);
+//            }catch (Exception e){
+//                e.printStackTrace();
+//            }
+//        }
+//    }
 
 
 

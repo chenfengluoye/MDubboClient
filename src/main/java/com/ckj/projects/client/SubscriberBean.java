@@ -12,20 +12,20 @@ import java.lang.reflect.Proxy;
 public class SubscriberBean<T> implements FactoryBean<T>,InitializingBean {
 
 
-    T object;
+    T proxy;
 
     Class<T> refclass;
 
 
     @Override
     public void afterPropertiesSet() throws Exception {
-        this.object=(T)Proxy.newProxyInstance(refclass.getClassLoader(),new Class[]{refclass},new SubscriberInvocationHandler());
+        this.proxy=(T)Proxy.newProxyInstance(refclass.getClassLoader(),new Class[]{refclass},new SubscriberInvocationHandler());
     }
 
     @Override
     public T getObject() throws Exception {
         RegisterClient.registerSubscriber(refclass);
-        return object;
+        return proxy;
     }
 
     @Override
@@ -38,9 +38,6 @@ public class SubscriberBean<T> implements FactoryBean<T>,InitializingBean {
         return true;
     }
 
-    public void setObject(T object) {
-        this.object = object;
-    }
 
     public Class<T> getRefclass() {
         return refclass;
@@ -48,5 +45,13 @@ public class SubscriberBean<T> implements FactoryBean<T>,InitializingBean {
 
     public void setRefclass(Class<T> refclass) {
         this.refclass = refclass;
+    }
+
+    public T getProxy() {
+        return proxy;
+    }
+
+    public void setProxy(T proxy) {
+        this.proxy = proxy;
     }
 }

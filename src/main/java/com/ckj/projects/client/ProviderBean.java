@@ -37,6 +37,7 @@ public class ProviderBean<T> implements FactoryBean<T>,InitializingBean,Applicat
         }
         RegisterClient.registerProvide(refclass);
         this.proxy=(T)Proxy.newProxyInstance(loader,interfaces,handler);
+        ProvideManager.providerMap.put(refclass.getName(),this.proxy);
     }
 
     @Override

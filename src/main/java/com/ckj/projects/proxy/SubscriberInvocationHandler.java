@@ -46,13 +46,6 @@ public class SubscriberInvocationHandler implements InvocationHandler {
                     int port=Integer.valueOf((Integer) provider.get("serverPort"));
                     Socket socket=new Socket(address,port);
                     ObjectOutputStream outputStream=new ObjectOutputStream(socket.getOutputStream());
-//                    JSONObject proxymethod=new JSONObject();
-//                    proxymethod.put("provider",method.getDeclaringClass().getName());
-//                    proxymethod.put("method",method);
-//                    JSONArray methodTypearray=new JSONArray(method.getParameterTypes());
-//                    proxymethod.put("methodPType",methodTypearray);
-//                    System.out.println("消费者调用方法："+proxymethod.toString());
-//                    outputStream.writeUTF(proxymethod.toString());
                     RequestMethod invoker=new RequestMethod();
                     invoker.setMethodClass(method.getDeclaringClass());
                     invoker.setParams(args);

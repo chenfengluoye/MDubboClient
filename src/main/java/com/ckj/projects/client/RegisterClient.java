@@ -10,18 +10,12 @@ public class RegisterClient {
 
 
     public static void registerSubscriber(Class subscriberIntf){
-
-        for(Map.Entry<String, LocalServerToCenter> center:ServerManager.centerList.entrySet()){
-            center.getValue().registrySubscrier(subscriberIntf.getName());
-        }
+       LocalServerToCenter.registerSubscriber(subscriberIntf);
     }
 
 
     public static void registerProvide(Class provideIntf){
-
-        for(Map.Entry<String, LocalServerToCenter> center:ServerManager.centerList.entrySet()){
-            center.getValue().registryProvider(provideIntf.getName());
-        }
+        LocalServerToCenter.registerProvider(provideIntf);
     }
 
 
