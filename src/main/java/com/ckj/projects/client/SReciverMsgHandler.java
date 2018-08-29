@@ -1,18 +1,27 @@
 package com.ckj.projects.client;
 
-import com.alibaba.fastjson.JSON;
+import com.ckj.projects.utils.ObjectAndByte;
+import io.netty.buffer.ByteBuf;
+import io.netty.channel.ChannelInboundHandlerAdapter;
 import io.netty.channel.ChannelHandlerContext;
-import io.netty.channel.SimpleChannelInboundHandler;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class SReciverMsgHandler extends SimpleChannelInboundHandler {
+public class SReciverMsgHandler extends ChannelInboundHandlerAdapter {
     Logger logger= LoggerFactory.getLogger(this.getClass());
-    public static ChannelHandlerContext channelHandlerContext;
     @Override
-    protected void channelRead0(ChannelHandlerContext channelHandlerContext, Object o) throws Exception {
-        this.channelHandlerContext=channelHandlerContext;
-        logger.info(this.getClass()+"#"+Thread.currentThread().getName()+",参数："+ JSON.toJSONString(o));
+    public void channelRead(ChannelHandlerContext channelHandlerContext,Object o) throws Exception {
+        try{
+            ResponseMethod responseMethod= (ResponseMethod)o;
+            CallBackService service= channelHandlerContext.channel().attr(RPCChannel.attributeKey).get().remove(responseMethod.getMsgReq());
+            service.Call(responseMethod.getRespObj());
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+    }
 
+    @Override
+    public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) throws Exception {
+        logger.error("异常："+cause.getMessage());
     }
 }

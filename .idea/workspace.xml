@@ -2,60 +2,75 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37ce4b26-b925-4121-902b-2547d670bd99" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/zookeeper_3_4_13__2_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/zookeeper_3_4_13__3_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/zookeeper-3.4.13.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/CallBackService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/Invoker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/LSChannelInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/MStringCallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/PReciverMsgHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/ProvideManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/ProviderConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/RPCChannel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/SReciverMsgHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ckj/projects/utils/ZookeeperUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/chenkaiju.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/zookeeper_3_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/SChannelInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/ServerBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ckj/projects/utils/ObjectAndByte.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDubboClient.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/zookeeper-3.4.13.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/CallBackService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/CallBackService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/ClusterChooseClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/ClusterChooseClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/IndexServerBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/IndexServerBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/Invoker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/Invoker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/LSChannelInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/LSChannelInitializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/LocalServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/LocalServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/LocalServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/LocalServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/LocalServerHandler.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/LocalServerToCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/LocalServerToCenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/ProviderBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/ProviderBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/RegisterClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/RegisterClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/ServerManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/ServerManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/SubscriberBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/SubscriberBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/MsgHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/MsgHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/PReciverMsgHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/PReciverMsgHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/RPCChannel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/RPCChannel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/RequestMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/RequestMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/ResponseMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/ResponseMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/SReciverMsgHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/SReciverMsgHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ckj/projects/inhandler/MDubboNameSpaceHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ckj/projects/inhandler/MDubboNameSpaceHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ckj/projects/praser/MDubboPraser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ckj/projects/praser/MDubboParser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ckj/projects/proxy/SubscriberInvocationHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ckj/projects/proxy/SubscriberInvocationHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/MDubboClient-1.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/MDubboClient-1.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ckj/projects/client/ClusterChooseClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ckj/projects/client/ClusterChooseClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ckj/projects/client/IndexServerBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ckj/projects/client/IndexServerBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ckj/projects/client/LocalServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ckj/projects/client/LocalServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ckj/projects/client/LocalServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ckj/projects/client/LocalServerHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ckj/projects/client/LocalServerToCenter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ckj/projects/client/LocalServerToCenter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ckj/projects/client/MsgHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ckj/projects/client/MsgHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ckj/projects/client/ProviderBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ckj/projects/client/ProviderBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ckj/projects/client/RegisterClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ckj/projects/client/RegisterClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ckj/projects/client/RequestMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ckj/projects/client/RequestMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ckj/projects/client/ResponseMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ckj/projects/client/ResponseMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ckj/projects/client/ServerManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ckj/projects/client/ServerManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ckj/projects/client/SubscriberBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ckj/projects/client/SubscriberBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ckj/projects/config/ConfigUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ckj/projects/config/ConfigUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ckj/projects/config/Constant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ckj/projects/config/Constant.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ckj/projects/inhandler/MDubboNameSpaceHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ckj/projects/inhandler/MDubboNameSpaceHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ckj/projects/praser/IndexServerParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ckj/projects/praser/IndexServerParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ckj/projects/praser/MDubboPraser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ckj/projects/praser/MDubboPraser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ckj/projects/proxy/ProviderInvocationHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ckj/projects/proxy/ProviderInvocationHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ckj/projects/proxy/SubscriberInvocationHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ckj/projects/proxy/SubscriberInvocationHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ckj/projects/utils/NetUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ckj/projects/utils/NetUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ckj/projects/utils/ZookeeperUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ckj/projects/utils/ZookeeperUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/mdubbo.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/mdubbo.xsd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/spring.handlers" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/spring.handlers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/spring.schemas" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/spring.schemas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/MDubboClient-1.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/mdubbo.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/spring.handlers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/spring.schemas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ckj/projects/client/CallBackService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ckj/projects/client/ClusterChooseClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ckj/projects/client/IndexServerBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ckj/projects/client/Invoker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ckj/projects/client/LSChannelInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ckj/projects/client/LocalServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ckj/projects/client/LocalServerHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ckj/projects/client/LocalServerToCenter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ckj/projects/client/MStringCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ckj/projects/client/MsgHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ckj/projects/client/PReciverMsgHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ckj/projects/client/ProvideManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ckj/projects/client/ProviderBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ckj/projects/client/ProviderConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ckj/projects/client/RPCChannel$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ckj/projects/client/RPCChannel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ckj/projects/client/RegisterClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ckj/projects/client/RequestMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ckj/projects/client/ResponseMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ckj/projects/client/SReciverMsgHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ckj/projects/client/ServerManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ckj/projects/client/SubscriberBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ckj/projects/config/ConfigUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ckj/projects/config/Constant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ckj/projects/inhandler/MDubboNameSpaceHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ckj/projects/praser/IndexServerParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ckj/projects/praser/MDubboPraser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ckj/projects/proxy/ProviderInvocationHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ckj/projects/proxy/SubscriberInvocationHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ckj/projects/utils/NetUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ckj/projects/utils/ZookeeperUtils$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ckj/projects/utils/ZookeeperUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/globalConfig.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,88 +82,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PReciverMsgHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/client/PReciverMsgHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProvideManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/client/ProvideManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+            <state relative-caret-position="221">
+              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MStringCallback.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/client/MStringCallback.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#349#350#0" expanded="true" />
-                <element signature="e#397#398#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProviderBean.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/client/ProviderBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IndexServerBean.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/client/IndexServerBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZookeeperUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/utils/ZookeeperUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
       <file leaf-file-name="ClusterChooseClient.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/client/ClusterChooseClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+            <state relative-caret-position="307">
+              <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -156,20 +104,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServerManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/client/ServerManager.java">
+      <file leaf-file-name="MDubboParser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/praser/MDubboParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="-118">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegisterClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/client/RegisterClient.java">
+      <file leaf-file-name="ServerParser.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/praser/ServerParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+            <state relative-caret-position="86">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -183,6 +137,25 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>与注册中心集群建立通完成。。。</find>
+      <find>MDubbo/providers</find>
+      <find>/MDubbo/providers</find>
+      <find>Mdubbo/provides</find>
+      <find>ServerManager.provideList</find>
+      <find>/Mdubbo/providers</find>
+      <find>有事件</find>
+      <find>10.13.18.49:9000</find>
+      <find>与服务提供者</find>
+      <find>客户端启动。。。</find>
+      <find>SReciverMsgHandler</find>
+      <find>有事件发生</find>
+      <find>msgpack</find>
+      <find>JSFContext</find>
+      <find>ckj.mdubbo.com</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -190,27 +163,42 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/LocalServerChannelInitializer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/LocalServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/LocalServerHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ckj/projects/proxy/SubscriberInvocationHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/ReciverMsgHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/LSChannelInitializer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/CallBackService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/SReciverMsgHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/SubscriberBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/ProviderConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/MStringCallback.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ckj/projects/utils/ZookeeperUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/RPCChannel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/Invoker.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/ProvideManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/ProviderBean.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/LocalServerToCenter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/RegisterClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/ServerManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/ClusterChooseClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/MStringCallback.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/LocalServerToCenter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/CallBackService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ckj/projects/praser/ServerPraser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ckj/projects/praser/MDubboPraser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ckj/projects/inhandler/MDubboNameSpaceHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ckj/projects/proxy/SubscriberInvocationHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/RPCChannel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/ServerBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/LocalServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/LocalServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ckj/projects/praser/ServerParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ckj/projects/utils/ZookeeperUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ckj/projects/praser/MDubboParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/RequestMethod.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/ResponseMethod.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/LSChannelInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/SChannelInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ckj/projects/utils/ObjectAndByte.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/SReciverMsgHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/PReciverMsgHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/Invoker.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/mdubbo.xsd" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/spring.handlers" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/spring.schemas" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/MsgHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/IndexServerBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ckj/projects/client/ClusterChooseClient.java" />
       </list>
     </option>
   </component>
@@ -223,8 +211,8 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="C:/Program Files/Maven/apache-maven-3.5.3" />
-        <option name="userSettingsFile" value="C:\Program Files\Maven\apache-maven-3.5.3\conf\settings.xml" />
+        <option name="mavenHome" value="C:/Program Files/apache-maven-3.5.3" />
+        <option name="userSettingsFile" value="C:\Program Files\apache-maven-3.5.3\conf\settings.xml" />
         <option name="workOffline" value="true" />
       </MavenGeneralSettings>
     </option>
@@ -264,10 +252,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1346" />
-    <option name="height" value="728" />
+    <option name="height" value="688" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -277,28 +265,29 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="MDubboClient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MDubboClient-master" type="462c0819:PsiDirectoryNode" />
+              <item name="MDubboClient" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../credit_channel_all/channel-base" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -398,45 +387,49 @@
       <workItem from="1535163642468" duration="20770000" />
       <workItem from="1535244954970" duration="9758000" />
       <workItem from="1535258449066" duration="2281000" />
+      <workItem from="1535332578070" duration="29302000" />
+      <workItem from="1535421046619" duration="24825000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32809000" />
+    <option name="totallyTimeSpent" value="86936000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32934132" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32980332" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3007752" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.16124031" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28971255" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32934132" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="8" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30068728" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32646048" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27609682" />
+      <window_info id="Web" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32934132" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32934132" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32934132" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -445,279 +438,256 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/client/ClusterChooseClient.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.36.Final/netty-all-4.0.36.Final.jar!/io/netty/handler/codec/string/StringEncoder.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        <state relative-caret-position="119">
+          <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.36.Final/netty-all-4.0.36.Final.jar!/io/netty/channel/ChannelInboundHandlerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.36.Final/netty-all-4.0.36.Final.jar!/io/netty/buffer/ByteBuf.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.36.Final/netty-all-4.0.36.Final.jar!/io/netty/channel/SimpleChannelInboundHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="48" column="48" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.36.Final/netty-all-4.0.36.Final.jar!/io/netty/buffer/Unpooled.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding>
+            <element signature="e#605#606#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.36.Final/netty-all-4.0.36.Final-sources.jar!/io/netty/channel/SimpleChannelInboundHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="98" column="16" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.36.Final/netty-all-4.0.36.Final-sources.jar!/io/netty/channel/ChannelInboundHandlerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="84" column="16" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.36.Final/netty-all-4.0.36.Final-sources.jar!/io/netty/handler/codec/string/StringEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.36.Final/netty-all-4.0.36.Final-sources.jar!/io/netty/handler/codec/MessageToMessageEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.36.Final/netty-all-4.0.36.Final-sources.jar!/io/netty/buffer/ByteBuf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="232" column="22" selection-start-line="232" selection-start-column="22" selection-end-line="232" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.36.Final/netty-all-4.0.36.Final-sources.jar!/io/netty/buffer/ByteBufAllocator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="62" column="12" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.36.Final/netty-all-4.0.36.Final-sources.jar!/io/netty/buffer/Unpooled.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="98" column="24" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="24" />
+          <folding>
+            <element signature="e#3492#3493#0" expanded="true" />
+            <element signature="e#3533#3534#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/locks/Lock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1067">
+          <caret line="334" column="9" selection-start-line="334" selection-start-column="9" selection-end-line="334" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/inhandler/MDubboNameSpaceHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/client/ServerManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/client/RegisterClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/utils/ZookeeperUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/client/RPCChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/client/SubscriberBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/client/SReciverMsgHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/client/PReciverMsgHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/client/ProvideManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="9" column="59" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/client/LSChannelInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/client/LocalServerToCenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#571#591#0" />
-            <element signature="e#3837#3839#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/client/ProviderBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="39" column="18" lean-forward="true" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/client/ProviderConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding>
-            <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#584#585#0" expanded="true" />
-            <element signature="e#911#912#0" expanded="true" />
-            <element signature="e#958#959#0" expanded="true" />
-            <element signature="e#996#997#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/utils/ZookeeperUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="45" column="25" lean-forward="true" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/main/resources/zookeeper-3.4.13.jar!/org/apache/zookeeper/data/Stat.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.29.Final/netty-all-4.1.29.Final.jar!/io/netty/channel/ChannelPipeline.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-530">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.29.Final/netty-all-4.1.29.Final.jar!/io/netty/channel/ChannelHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.29.Final/netty-all-4.1.29.Final.jar!/io/netty/channel/ChannelHandlerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57">
-          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.29.Final/netty-all-4.1.29.Final.jar!/io/netty/channel/ChannelInboundHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.29.Final/netty-all-4.1.29.Final.jar!/io/netty/channel/ChannelInboundHandlerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-38">
-          <caret line="7" column="41" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.29.Final/netty-all-4.1.29.Final.jar!/io/netty/channel/SimpleChannelInboundHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="10" column="50" lean-forward="true" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/client/ResponseMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.29.Final/netty-all-4.1.29.Final.jar!/io/netty/channel/ChannelFuture.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.29.Final/netty-all-4.1.29.Final.jar!/io/netty/channel/ChannelOutboundInvoker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="46" column="32" lean-forward="true" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.29.Final/netty-all-4.1.29.Final.jar!/io/netty/util/AbstractConstant.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.29.Final/netty-all-4.1.29.Final.jar!/io/netty/util/AttributeKey.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="53" lean-forward="true" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.29.Final/netty-all-4.1.29.Final.jar!/io/netty/util/AttributeMap.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/proxy/SubscriberInvocationHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="52" column="27" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/client/ProviderConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="694">
-          <caret line="47" column="33" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
+        <state relative-caret-position="267">
+          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
           <folding>
-            <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#584#585#0" expanded="true" />
-            <element signature="e#911#912#0" expanded="true" />
-            <element signature="e#958#959#0" expanded="true" />
-            <element signature="e#996#997#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/client/MsgHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/praser/IndexServerParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="102">
+          <caret line="16" column="5" selection-start-line="13" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.29/fastjson-1.2.29.jar!/com/alibaba/fastjson/JSON.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="224" column="51" selection-start-line="224" selection-start-column="50" selection-end-line="224" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/reflect/Type.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.29/fastjson-1.2.29.jar!/com/alibaba/fastjson/asm/Type.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.36.Final/netty-all-4.0.36.Final-sources.jar!/io/netty/handler/codec/serialization/ObjectDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="61" column="11" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/utils/ZookeeperUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/utils/ObjectAndByte.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="86" column="19" selection-start-line="86" selection-start-column="19" selection-end-line="86" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/utils/NetUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/client/LocalServerHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="43" column="27" lean-forward="true" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
+        <state relative-caret-position="103">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/client/CallBackService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/mdubbo.xsd">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="68">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring.handlers">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring.schemas">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/client/SubscriberBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/client/SReciverMsgHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="123">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/client/ServerBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/client/SChannelInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="15" column="60" lean-forward="true" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -726,132 +696,80 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/client/RPCChannel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="49" column="27" lean-forward="true" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
+        <state relative-caret-position="119">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/client/ResponseMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/client/RequestMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/client/LocalServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="61" column="47" selection-start-line="61" selection-start-column="47" selection-end-line="61" selection-end-column="47" />
+        <state relative-caret-position="86">
+          <caret line="10" column="70" selection-start-line="10" selection-start-column="70" selection-end-line="10" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/client/Invoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/client/LSChannelInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="76" selection-start-line="14" selection-start-column="76" selection-end-line="14" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/client/LocalServerToCenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="52" column="84" selection-start-line="52" selection-start-column="65" selection-end-line="52" selection-end-column="84" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#571#591#0" />
-            <element signature="e#3837#3839#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/client/SubscriberBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/client/ClusterChooseClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/client/ServerManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/client/RegisterClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/client/PReciverMsgHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+        <state relative-caret-position="289">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/client/ProvideManager.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/client/ProviderConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/client/IndexServerBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/client/ProviderBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+        <state relative-caret-position="119">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/client/ProvideManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/client/PReciverMsgHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/client/MStringCallback.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        <state relative-caret-position="187">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#349#350#0" expanded="true" />
@@ -860,20 +778,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/utils/ZookeeperUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/client/MsgHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
+        <state relative-caret-position="119">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/client/LocalServerToCenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/client/LSChannelInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/client/LocalServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/client/Invoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/client/CallBackService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/client/IndexServerBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        <state relative-caret-position="221">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/client/ClusterChooseClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/praser/MDubboParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-118">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckj/projects/praser/ServerParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -883,10 +883,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>MDubboClient:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -906,6 +908,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>element-credit-pub</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -942,7 +945,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>

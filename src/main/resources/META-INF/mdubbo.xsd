@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsd:schema
-        xmlns="http://127.0.0.1:8080/MDubbo/schema/mdubbo"
+        xmlns="http://ckj.mdubbo.com/MDubbo/schema/mdubbo"
         xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-        xmlns:beans="http://www.springframework.org/schema/beans"
-        xmlns:tool="http://www.springframework.org/schema/tool"
-        targetNamespace="http://127.0.0.1:8080/MDubbo/schema/mdubbo"
+        targetNamespace="http://ckj.mdubbo.com/MDubbo/schema/mdubbo"
         elementFormDefault="qualified"
         attributeFormDefault="unqualified">
     <xsd:import namespace="http://www.springframework.org/schema/beans" />
+    <xsd:element name="server">
+        <xsd:complexType>
+            <xsd:attribute name="id" type="xsd:ID" use="required">
+                <xsd:annotation>
+                    <xsd:documentation><![CDATA[ Spring的BeanId ]]></xsd:documentation>
+                </xsd:annotation>
+            </xsd:attribute>
+            <xsd:attribute name="ipAddress" type="xsd:string" use="optional">
+                <xsd:annotation>
+                    <xsd:documentation><![CDATA[ 本地服务的ip地址，默认自动生成 ]]></xsd:documentation>
+                </xsd:annotation>
+            </xsd:attribute>
+            <xsd:attribute name="port" type="xsd:string" use="optional">
+                <xsd:annotation>
+                    <xsd:documentation><![CDATA[ 本地服务的端口，默认9000 ]]></xsd:documentation>
+                </xsd:annotation>
+            </xsd:attribute>
+        </xsd:complexType>
+    </xsd:element>
     <xsd:element name="indexServer">
         <xsd:complexType>
             <xsd:attribute name="id" type="xsd:ID" use="required">
@@ -17,7 +34,7 @@
             </xsd:attribute>
             <xsd:attribute name="address" type="xsd:string" use="required">
                 <xsd:annotation>
-                    <xsd:documentation><![CDATA[ 索引服务器的地址 ]]></xsd:documentation>
+                    <xsd:documentation><![CDATA[ 索引服务器的完整地址 ]]></xsd:documentation>
                 </xsd:annotation>
             </xsd:attribute>
         </xsd:complexType>
@@ -32,6 +49,11 @@
             <xsd:attribute name="interface" type="xsd:string" use="required">
                 <xsd:annotation>
                     <xsd:documentation><![CDATA[ 具体的接口类 ]]></xsd:documentation>
+                </xsd:annotation>
+            </xsd:attribute>
+            <xsd:attribute name="serialization" type="xsd:string" use="optional">
+                <xsd:annotation>
+                    <xsd:documentation><![CDATA[ 序列化方式，目前只支持netty的序列化方式，填写也无效]]></xsd:documentation>
                 </xsd:annotation>
             </xsd:attribute>
         </xsd:complexType>

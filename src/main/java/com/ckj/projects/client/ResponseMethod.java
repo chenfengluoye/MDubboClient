@@ -1,5 +1,6 @@
 package com.ckj.projects.client;
 
+
 import java.io.Serializable;
 
 /**
@@ -7,10 +8,11 @@ import java.io.Serializable;
  */
 public class ResponseMethod implements Serializable {
 
+    private static final long serialVersionUID = 1004313235820466440L;
 
     Object respObj;
 
-
+    String msgReq;
 
     public Object getRespObj() {
         return respObj;
@@ -18,5 +20,14 @@ public class ResponseMethod implements Serializable {
 
     public void setRespObj(Object respObj) {
         this.respObj = respObj;
+    }
+
+
+    public String getMsgReq() {
+        return msgReq;
+    }
+
+    public void setMsgReq(String msgReq) {
+        this.msgReq = msgReq;
     }
 }

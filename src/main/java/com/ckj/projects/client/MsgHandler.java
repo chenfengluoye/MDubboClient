@@ -9,6 +9,7 @@ import java.net.Socket;
 /**
  * created by ChenKaiJu on 2018/8/4  11:31
  */
+@Deprecated
 public class MsgHandler extends Thread{
 
     Socket socket;

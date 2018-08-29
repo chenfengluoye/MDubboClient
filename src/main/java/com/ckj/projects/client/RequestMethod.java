@@ -1,12 +1,16 @@
 package com.ckj.projects.client;
 
 import java.io.Serializable;
-import java.lang.reflect.Method;
+import java.util.Arrays;
 
 /**
  * created by ChenKaiJu on 2018/8/12  16:49
  */
 public class RequestMethod implements Serializable {
+
+    private static final long serialVersionUID = 1004313235820466440L;
+
+    private String msgReq;
 
     private String methodName;
 
@@ -57,4 +61,13 @@ public class RequestMethod implements Serializable {
     public void setMethodName(String methodName) {
         this.methodName = methodName;
     }
+
+    public String getMsgReq() {
+        return msgReq;
+    }
+
+    public void setMsgReq(String msgReq) {
+        this.msgReq = msgReq;
+    }
+
 }

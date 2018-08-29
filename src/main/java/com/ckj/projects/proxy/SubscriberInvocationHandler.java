@@ -1,6 +1,7 @@
 package com.ckj.projects.proxy;
 
 
+import com.ckj.projects.client.Invoker;
 import com.ckj.projects.client.RequestMethod;
 import com.ckj.projects.client.ServerManager;
 import org.json.JSONArray;
@@ -32,41 +33,21 @@ public class SubscriberInvocationHandler implements InvocationHandler {
             return true;
         }
         try {
-            System.out.println(method.getDeclaringClass().getName()+"#"+method.getName()+"#Subscriber方法开始执行。。。");
-            Class cl=method.getDeclaringClass();
-            String className=cl.getName();
-            List<Map<String,Object>> providers=ServerManager.provideList.get(className);
-            if(providers==null||providers.size()==0){
-                throw new RuntimeException(method.getName()+"&& no aliable provider...");
+            try{
+                RequestMethod requestMethod=new RequestMethod();
+                requestMethod.setMethodClass(method.getDeclaringClass());
+                requestMethod.setParams(args);
+                requestMethod.setMethodName(method.getName());
+                requestMethod.setParamTypes(method.getParameterTypes());
+                requestMethod.setReturnType(method.getReturnType());
+                Invoker invoker=new Invoker();
+                Object retobj=invoker.invoke(requestMethod);
+                return retobj;
+            }catch (Exception e){
+                e.printStackTrace();
             }
-            for(int i=0;i<providers.size();i++){
-                try{
-                    Map<String,Object> provider=providers.get(i);
-                    String address= (String) provider.get("ipAddress");
-                    int port=Integer.valueOf((Integer) provider.get("serverPort"));
-                    Socket socket=new Socket(address,port);
-                    ObjectOutputStream outputStream=new ObjectOutputStream(socket.getOutputStream());
-                    RequestMethod invoker=new RequestMethod();
-                    invoker.setMethodClass(method.getDeclaringClass());
-                    invoker.setParams(args);
-                    invoker.setMethodName(method.getName());
-                    invoker.setParamTypes(method.getParameterTypes());
-                    invoker.setReturnType(method.getReturnType());
-                    outputStream.writeObject(invoker);
-                    socket.shutdownOutput();
-                    ObjectInputStream inputStream=new ObjectInputStream(socket.getInputStream());
-                    Object object= inputStream.readObject();
-                    inputStream.close();
-                    socket.close();
-                    return object;
-                }catch (Exception e){
-                    System.out.println("此提供者执行任务异常"+providers.get(i).get("ipAddress")+":"+providers.get(i).get("serverPort"));
-                }
-            }
-            System.out.println(method.getName()+"#Subscriber方法执行完毕。。。");
             return null;
         }catch (Exception e){
-            System.out.println(method.getName()+"#Subscriber方法异常结束。。。");
             e.printStackTrace();
             return null;
         }

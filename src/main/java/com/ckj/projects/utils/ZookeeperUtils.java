@@ -1,16 +1,13 @@
 package com.ckj.projects.utils;
 
 import com.alibaba.fastjson.JSON;
-import org.apache.zookeeper.KeeperException;
-import org.apache.zookeeper.WatchedEvent;
-import org.apache.zookeeper.Watcher;
-import org.apache.zookeeper.ZooKeeper;
+import org.apache.zookeeper.*;
 import org.apache.log4j.Logger;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import java.io.IOException;
-import java.util.List;
 import java.util.Random;
+
 
 public class ZookeeperUtils {
 
@@ -23,13 +20,15 @@ public class ZookeeperUtils {
     public static Watcher subcriberWatcher = new Watcher() {
         @Override
         public void process(WatchedEvent event) {
-            logger.info("有事件发生" + JSON.toJSONString(event));
-            try {
-                subcriberZookeeper.getChildren("/Mdubbo/provides",subcriberWatcher);
-            } catch (KeeperException e) {
-                e.printStackTrace();
-            } catch (InterruptedException e) {
-                e.printStackTrace();
+            if(event.getType().equals(Event.EventType.NodeChildrenChanged)){
+                logger.info("消费端监听到注册中心有事件发生" + JSON.toJSONString(event));
+                try {
+                    subcriberZookeeper.getChildren("/Mdubbo/providers",subcriberWatcher);
+                } catch (KeeperException e) {
+                    e.printStackTrace();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
             }
         }
     };
